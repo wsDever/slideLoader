@@ -24,10 +24,13 @@
 		// doing something
 	});
 
-## 参数说明
+## 参数
 	ele : 触发事件的元素；
 	offset : Number,触发事件下拉的距离；
 	time : Number,动画执行的时间,单位为秒；
 
 ## 测试Demo
-	[Demo页](https://wsdever.github.io/)
+	访问[Demo页](https://wsdever.github.io/)
+
+## 说明
+	使用场景不同样式不便统一，故此插件无样式绑定，可自行在提供的样式基础上修改。
