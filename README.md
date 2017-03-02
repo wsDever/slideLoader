@@ -4,25 +4,24 @@
   引用jQuery(zepto)
   引用下载dist下js和css文件
   依照demo的dom结构进行使用：
+
 	<div class="loader">
 		<!-- 加载样式 -->
-        <div class="load-cnt">
-            玩儿命加载中...
-        </div> 
-        <!-- 触发元素 -->
-        <div class="load-bar">
-           <div style="height:150px;line-height:150px;">
-               按住下拉试试
-           </div>
-        </div>
-    </div>
+		<div class="load-cnt">玩儿命加载中...</div> 
+		<!-- 触发元素 -->
+		<div class="load-bar">
+			<div style="height:150px;line-height:150px;">按住下拉试试</div>
+		</div>
+	</div>
   方法调用：
+
 	$(ele).slideLoader({
 		"offset":num,
-	 	"time":num
-	 	},function(){
-		// doing something
+		"time":num
+		},function(){
+			// doing something
 	});
+
 ## 参数说明
 	ele : 触发事件的元素；
 	offset : Number,触发事件下拉的距离；
