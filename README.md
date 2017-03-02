@@ -2,7 +2,9 @@
 一个移动端通用下拉刷新插件，基于jQuery(zepto)
 ## 使用方法
   引用jQuery(zepto)
+
   引用下载dist下js和css文件
+  
   依照demo的dom结构进行使用：
 
 	<div class="loader">
@@ -19,7 +21,7 @@
 		"offset":num,
 		"time":num
 		},function(){
-			// doing something
+		// doing something
 	});
 
 ## 参数说明
@@ -28,3 +30,4 @@
 	time : Number,动画执行的时间,单位为秒；
 
 ## 测试Demo
+	[Demo页](https://wsdever.github.io/)
