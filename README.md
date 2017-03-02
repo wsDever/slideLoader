@@ -30,7 +30,7 @@
 	time : Number,动画执行的时间,单位为秒；
 
 ## 测试Demo
-	访问[Demo页](https://wsdever.github.io/)
+  访问[Demo页](https://wsdever.github.io/)
 
 ## 说明
-	使用场景不同样式不便统一，故此插件无样式绑定，可自行在提供的样式基础上修改。
+  使用场景不同样式不便统一，故此插件无样式绑定，可自行在提供的样式基础上修改。
